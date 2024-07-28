@@ -263,7 +263,8 @@ section.subscribe input[type="submit"]:focus {
 
 footer {
     background-color: var(--dark-color);
-    font-size: 1.07rem
+    font-size: 1.07rem;
+    font-weight: 600;
 }
 
 footer .social svg {
