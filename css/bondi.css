@@ -141,7 +141,7 @@ section.our-work li:hover {
     color: var(--red)
 }
 
-section.our-work .gallery div div {
+section.our-work .gallery>div>div {
     cursor: pointer;
     border: 8px solid white
 }
