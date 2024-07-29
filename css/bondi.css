@@ -141,12 +141,12 @@ section.our-work li:hover {
     color: var(--red)
 }
 
-section.our-work .gallery div {
+section.our-work .gallery div div {
     cursor: pointer;
     border: 8px solid white
 }
 
-section.our-work .gallery>div::before {
+section.our-work .gallery>div>div::before {
     content: attr(data-work);
     position: absolute;
     width: 0;
@@ -165,7 +165,7 @@ section.our-work .gallery>div::before {
     z-index: 999
 }
 
-section.our-work .gallery>div:hover::before {
+section.our-work .gallery>div>div:hover::before {
     width: 100% !important
 }
 
@@ -204,8 +204,7 @@ section.team .member blockquote {
 }
 
 section.team .member img {
-    max-width: 100%;
-    padding: 0 15px
+    width: 100%
 }
 
 /* end team  */
@@ -225,7 +224,7 @@ section.subscribe {
 }
 
 section.subscribe input[type="email"] {
-    width: clamp(300px, 90%, 650px);
+    width: clamp(100px, 90%, 650px);
     color: white;
     border-width: 0 0 1px 0;
     border-color: white;
