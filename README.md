@@ -1,4 +1,4 @@
 # Bondi
 
-## Design <hr>
+## Design
 ![Project Design](imgs/Bondi.png)
